@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+body {
+    font-family: "Roboto Condensed";
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: pink;
+}
+
+.navbar-nested {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    background-color: #FF960E;
+    grid-gap: 1rem;
+    grid-auto-rows: 3rem;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar-nested > div {
+    padding: 2rem;
+    ;
+}
+
+.navbar-nested > div > a {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-nested > div > a:hover {
+    color: #FCD500;
+}
+
+.box2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: lightcoral;
+    margin-top: 1rem;
+}
+
+.text-nested {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    background-image: url("bg.png");
+    background-position: center;
+    background-size: cover;
+    grid-gap: 0rem;
+    height: 20rem;
+}
+
+.text-content {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    color: white;
+    font-weight: 200;
+}
+
+
+.box3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: #DDDDDD;
+    padding: 1rem;
+}
+
+.graph-box {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    height: 14rem;
+}
+
+.graph-content {
+    grid-column-start: 4;
+    grid-column-end: 18;
+    grid-row-start: 2;
+    grid-row-end: 20;
+    background-image: url("graph.png");
+    background-repeat: no-repeat;
+    background-size: 400px 200px;
+}
+
+.box4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: lightseagreen;
+}
