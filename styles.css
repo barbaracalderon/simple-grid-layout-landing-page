@@ -108,3 +108,36 @@ body {
     grid-row-end: 4;
     background-color: lightseagreen;
 }
+
+.red-text-nested {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-color: #DDDDDD;
+    height: 16rem;
+    
+}
+
+.red-text-content-1 {
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: lightsalmon;
+}
+
+.red-text-content-1 > h1 {
+    color: red;
+}
+
+.red-text-content-2 {
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: lightpink;
+}
+
+.red-text-content-2 > h1 {
+    color: red;
+}
