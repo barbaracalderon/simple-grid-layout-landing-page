@@ -16,7 +16,7 @@ body {
         'box3 box4';
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .grid-container {
         grid-template-areas:
             'box0'
@@ -26,6 +26,7 @@ body {
             'box4'
     }
 }
+
 
 .box0 {
     grid-column-start: 1;
@@ -51,8 +52,9 @@ body {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-color: pink;
+    background-color: #FF960E;
     grid-area: box1;
+    width: 100%;
 }
 
 .navbar-nested {
@@ -63,11 +65,11 @@ body {
     grid-auto-rows: 3rem;
     text-align: center;
     align-items: center;
+    max-width: 1720px;
 }
 
 .navbar-nested > div {
     padding: 2rem;
-    ;
 }
 
 .navbar-nested > div > a {
@@ -80,6 +82,20 @@ body {
 .navbar-nested > div > a:hover {
     color: #FCD500;
 }
+
+#nav-toggle, .burger-menu {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .burger-menu {
+        display: inline-block;
+    }
+    .navbar-nested {
+        display:none;
+    }
+}
+
 
 .box2 {
     grid-column-start: 1;
