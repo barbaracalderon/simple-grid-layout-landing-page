@@ -11,6 +11,24 @@ body {
 
 }
 
+.box0 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 0;
+    grid-row-end: 1;
+    margin-bottom: 0px;
+    height: 3rem;
+}
+
+
+.meu-app > p {
+    padding-left: 2rem;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: #FCD500;
+    font-size: 1.5rem;
+}
+
 .box1 {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -74,6 +92,9 @@ body {
     font-weight: 200;
 }
 
+.text-content > h1 {
+    font-weight: 100;
+}
 
 .box3 {
     grid-column-start: 1;
@@ -111,8 +132,8 @@ body {
 
 .red-text-nested {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     background-color: #DDDDDD;
     height: 16rem;
     
@@ -120,24 +141,37 @@ body {
 
 .red-text-content-1 {
     grid-column-start: 2;
-    grid-column-end: 7;
-    grid-row-start: 2;
+    grid-column-end: 9;
+    grid-row-start: 1;
     grid-row-end: 3;
-    background-color: lightsalmon;
+    padding-top: 1rem;
+
 }
 
 .red-text-content-1 > h1 {
     color: red;
+    margin-top: 0px;
+    font-size: 3rem;
+}
+
+.red-text-content-1 > p {
+    margin-bottom: 0px;
 }
 
 .red-text-content-2 {
     grid-column-start: 2;
-    grid-column-end: 7;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    background-color: lightpink;
+    grid-column-end: 9;
+    grid-row-start: 7;
+    grid-row-end: 9;
+
 }
 
 .red-text-content-2 > h1 {
     color: red;
+    margin-top: 0px;
+    font-size: 3rem;
+}
+
+.red-text-content-2 > p {
+    margin-bottom: 0px;
 }
