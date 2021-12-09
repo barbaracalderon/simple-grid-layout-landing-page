@@ -1,3 +1,13 @@
+# Printscreens
+
+**DESKTOP**
+
+![landing page simples e responsiva usando grid layout system em versão desktop](/LP_imagem.png)
+
+**MOBILE**
+
+![landing page simples e responsiva usando grid layout system em versão mobile](/LP_imagem_mobile.png)
+
 # PT-BR: Uma "landing page" simples e responsiva usando "Grid Layout"
 
 *Simples "landing page" como parte de estudos sobre Cascading Style Sheets (CSS) e Grid Layout.*
@@ -31,13 +41,3 @@ This is a very simple and responsive landing page: the blocks change their posit
 5. images
 6. different size texts
 
----
-# Printscreens
-
-**DESKTOP**
-
-![landing page simples e responsiva usando grid layout system em versão desktop](/LP_imagem.png)
-
-**MOBILE**
-
-![landing page simples e responsiva usando grid layout system em versão mobile](/LP_imagem_mobile.png)
