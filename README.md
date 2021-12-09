@@ -1,4 +1,4 @@
-# PT-BR: Uma "landing page" simples e responsiva usando "Grid Layout System"
+# PT-BR: Uma "landing page" simples e responsiva usando "Grid Layout"
 
 *Simples "landing page" como parte de estudos sobre Cascading Style Sheets (CSS) e Grid Layout.*
 
@@ -16,13 +16,13 @@ Essa é uma "landing page" muito simples e responsiva: os blocos mudam de dispos
 
 ### *PS: Imagens ao final desse arquivo README.md
 ---
-# EN-US: Simple and responsive landing page using the Grid Layout System
+# EN-US: Simple and responsive landing page using the Grid Layout
 
 *Simple landing page done as part of my studies on Cascading Style Sheets (CSS) and Grid Layout.*
 
 *My solution to a proposed challenge.*
 
-This is a very simple and responsive landing page: the blocks change their position according to the window size. Everything was done with the Grid Layout System, no Javascript needed.
+This is a very simple and responsive landing page: the blocks change their position according to the window size. Everything was done with the Grid Layout, no Javascript needed.
 
 1. navbar
 2. dropdown menu
@@ -33,7 +33,6 @@ This is a very simple and responsive landing page: the blocks change their posit
 
 ---
 # Printscreens
-
 
 **DESKTOP**
 
